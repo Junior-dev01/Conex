@@ -5,7 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ----- Rastreamento de container (Atualizado para ShipFinder) -----
+    // ----- Rastreamento de container -----
     const btnTrack = document.getElementById('btnTrack');
     const containerInput = document.getElementById('containerInput');
 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Permite que o usuário aperte "Enter" no teclado para buscar
         containerInput.addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
-                event.preventDefault(); // Evita qualquer comportamento padrão
+                event.preventDefault(); // Evita qualquer comportamento padrão do HTML
                 realizarRastreio();
             }
         });
