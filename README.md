@@ -26,7 +26,7 @@ Projeto Conex — Landing Page Institucional
    
 Turma: \[ADS3S-M-A\]
 
-Professor: Esp. Dácio F. Machado
+Professor: Dácio F. Machado
 
 Maringá – PR, junho de 2026
 
@@ -108,7 +108,7 @@ A Conex é uma empresa fictícia de comércio exterior especializada em logísti
 
 ## **1.3 Escopo**
 
-O escopo contempla o desenvolvimento front-end de uma aplicação web estática, composta por duas páginas integradas, com identidade visual própria, design responsivo (responsive) e interações em JavaScript. Recursos de back-end (envio real de e-mails, persistência de dados e integração com APIs de rastreamento) estão fora do escopo desta entrega e são tratados como simulações no lado do cliente (client-side).
+O escopo contempla o desenvolvimento front-end de uma aplicação web estática, composta por duas páginas integradas, com identidade visual própria, design responsivo (responsive) e interações em JavaScript. Recursos de back-end (persistência de dados e integração com APIs de rastreamento) estão fora do escopo desta entrega e são tratados como simulações no lado do cliente (client-side).
 
 # **2\. Descrição Geral**
 
@@ -139,7 +139,7 @@ Os requisitos funcionais descrevem o que a aplicação faz, do ponto de vista do
 | **RF03** | Listagem de serviços | Exibição dos três serviços (FCL, LCL e Inspeção) em cartões (cards) com ícone, descrição resumida e link “Saiba mais”. |
 | **RF04** | Detalhamento de serviços | Página dedicada com a descrição completa de cada serviço, acessível pelos links “Saiba mais” por meio de âncoras (\#fcl, \#lcl, \#inspecao). |
 | **RF05** | Rastreamento de contêiner | Campo para informar o número do BL/Container e botão “Rastrear”. A consulta é simulada via JavaScript, com validação de campo vazio e retorno de mensagem ao usuário. |
-| **RF06** | Formulário de contato | Formulário com nome, e-mail, tipo de serviço e mensagem. Possui validação nativa (atributo required) e feedback de envio simulado via JavaScript (sem back-end). |
+| **RF06** | Formulário de contato | Formulário com nome, e-mail, tipo de serviço e mensagem. Possui validação nativa (atributo required) e feedback de envio simulado via JavaScript . |
 | **RF07** | Identidade visual | Exibição da logomarca da Conex no cabeçalho (com link para a home) e como favicon nas abas do navegador. |
 
 # **4\. Requisitos Não-Funcionais (RNF)**
@@ -278,7 +278,7 @@ A aplicação é publicada por meio do GitHub Pages, a partir de um repositório
 
 Por se tratar de uma entrega focada no front-end, alguns recursos são simulados e podem evoluir em versões futuras:
 
-•      Rastreamento e formulário de contato são tratados apenas no cliente (client-side). Evolução: integração com uma API real de rastreamento e um back-end para envio de e-mails e armazenamento das solicitações.
+•      Rastreamento é tratado apenas no cliente (client-side). Evolução: integração com uma API real de rastreamento.
 
 •      O menu de navegação ainda não colapsa em um menu “hambúrguer” em telas muito pequenas. Evolução: implementar menu responsivo móvel.
 
